@@ -3580,6 +3580,34 @@ textarea.form-control-lg {
   padding-left: 0.75rem;
 }
 
+.call-to-action {
+  background: linear-gradient(135deg, #007bff, #0056b3); /* Degradado de colores */
+  color: #fff;
+}
+
+.call-to-action h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.call-to-action p {
+  font-size: 1.1rem;
+}
+
+.call-to-action .btn {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 50px; /* Botón redondeado */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones */
+}
+
+.call-to-action .btn:hover {
+  background-color: #ffc107; /* Color de fondo al hacer hover */
+  color: #333;
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+
+
 .btn-group-vertical {
   flex-direction: column;
   align-items: flex-start;
